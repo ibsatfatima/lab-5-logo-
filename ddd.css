@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.icon-bar{
+    background: black;
+}
+li a{
+    color: #333;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: rgb(190, 12, 42)
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color: lightgreen
+    color  #fff;
+}
+a.btn-second{
+    background-color: transparent;
+    border: 1px solid red;
+    color: #333;
+}
+a.btn:hover{
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
